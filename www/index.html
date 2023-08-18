@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+    <h1>Web Application in Rust</h1>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+  <label for="imageInput" id="uploadLabel">Browse Image</label>
+  <input type="file" id="imageInput" accept=".jpg, .png, .gif" title="Browse Image" width="200">
+  <p><img id="outputImage" width="800" height="500" /></p>
+  <div id="imageFilters">
+    <button id="grayscaleButton" class="filterButton">Grayscale</button>
+    <button id="sepiaButton" class="filterButton">Sepia</button>
+    <button id="redButton" class="filterButton">Red</button>
+    <button id="blueButton" class="filterButton">Blue</button>
+    <button id="greenButton" class="filterButton">Green</button>
+    <button id="blurButton" class="filterButton">Blur</button>
+    <button id="verticalButton" class="filterButton">Vertical</button>
+    <button id="horizontalButton" class="filterButton">Horizontal</button>
+    <button id="resetButton" class="filterButton">Reset</button>
+  </div>
+  <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>

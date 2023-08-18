@@ -1,0 +1,19 @@
+{
+  "name": "wasm-first-project",
+  "collaborators": [
+    "vanshika1221 <vanshika.srivastava@knoldus.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_first_project_bg.wasm",
+    "wasm_first_project.js",
+    "wasm_first_project_bg.js",
+    "wasm_first_project.d.ts"
+  ],
+  "module": "wasm_first_project.js",
+  "types": "wasm_first_project.d.ts",
+  "sideEffects": [
+    "./wasm_first_project.js",
+    "./snippets/*"
+  ]
+}
